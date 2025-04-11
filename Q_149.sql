@@ -46,7 +46,7 @@ mysql> INSERT INTO CUSTOMERS (CNAME, CITY) VALUES
     -> ('SUNIL', 'NEW DELHI'),
     -> ('PRIYA', 'CHENNAI'),
     -> ('KAVYA', 'CALICUT'),
-    -> ('VIKRAM', 'CALICUT');  -- Added Vikram to satisfy question (c)
+    -> ('VIKRAM', 'CALICUT');  
 Query OK, 6 rows affected (0.00 sec)
 Records: 6  Duplicates: 0  Warnings: 0
 
@@ -58,7 +58,7 @@ mysql> INSERT INTO DEPOSIT (LOANNO, CNAME, BNAME, AMOUNT) VALUES
     -> ('D003', 'SUNIL', 'SBT NEW DELHI', 8000),
     -> ('D004', 'PRIYA', 'HDFC CHENNAI', 20000),
     -> ('D005', 'KAVYA', 'PNB CALICUT', 7000),
-    -> ('D006', 'VIKRAM', 'SBT NEW DELHI', 10000);  -- Vikram is from CALICUT but has an account in SBT NEW DELHI
+    -> ('D006', 'VIKRAM', 'SBT NEW DELHI', 10000); 
 Query OK, 6 rows affected (0.00 sec)
 Records: 6  Duplicates: 0  Warnings: 0
 
